@@ -4,8 +4,7 @@ from main import app
 from main import Product, db
 
 
-params = pika.URLParameters(
-    'amqps://llndymeo:y4mJGUZdSZr17XrGfM_wsUwIlPv2T7Ut@fly.rmq.cloudamqp.com/llndymeo')
+params = pika.URLParameters('replace with your credentials')
 
 connection = pika.BlockingConnection(params)
 
